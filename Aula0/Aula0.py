@@ -12,7 +12,7 @@ class Pessoa:
 
 
     def falar(self): # self define qual instancia está sendo chamada
-        print(f"{self.nome} está falando!")
+        print(f"{self.nome} está falando agora!")
 
     def comer(self, alimento=''): # self define qual instancia está sendo chamada
         if self.comendo:
